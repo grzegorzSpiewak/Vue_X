@@ -1,0 +1,17 @@
+.pipe {
+  width: 60px;
+  background: #42b883;
+  display: flex;
+  margin: 0 -10px;
+  flex-direction: column-reverse;
+  z-index: 1;
+  border-bottom: 10px solid #35495e;
+  border-top: 10px solid #35495e;
+}
+
+.water {
+  background: #71c7ec;
+  align-self: flex-end;
+  width: 100%;
+  transition: all .5s ease;
+}

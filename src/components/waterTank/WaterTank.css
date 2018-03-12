@@ -1,0 +1,16 @@
+.water_tank {
+  width: 100px;
+  background: #42b883;
+  display: flex;
+  border-left: 10px solid #35495e;
+  border-right: 10px solid #35495e;
+  border-bottom: 10px solid #35495e;
+  overflow: hidden;
+}
+
+.water {
+  background: #71c7ec;
+  align-self: flex-end;
+  width: 100%;
+  transition: all .5s ease;
+}
