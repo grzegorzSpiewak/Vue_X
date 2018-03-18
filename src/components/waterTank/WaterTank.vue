@@ -1,6 +1,6 @@
 <template>
-  <div class="water_tank" :style='containerStyle'>
-    <div class="water" :style='waterLevel'></div>
+  <div class="water_tank" :style="waterTankStyle">
+    <div class="water" :style="waterStyle"></div>
   </div>
 </template>
 <script src="./WaterTank.js" />
